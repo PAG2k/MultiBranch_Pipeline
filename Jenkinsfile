@@ -1,10 +1,10 @@
 node('master') 
 {
-    stage('Continuous Download Main') 
+    stage('Continuous Download loans') 
 	{
     git 'https://github.com/PAG2k/CICDdemo.git'
 	}
-    stage('Continuous Build Main') 
+    stage('Continuous Build loans') 
 	{
     sh label: '', script: 'mvn package'
 	}
