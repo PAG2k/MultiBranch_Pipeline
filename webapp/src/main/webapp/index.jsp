@@ -1,1 +1,1 @@
-This is CICD MultiBranch pipeline Demo!
+This is a CICD Multi-Branch pipeline Demo!
