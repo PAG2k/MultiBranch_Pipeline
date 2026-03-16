@@ -1,10 +1,7 @@
 {
     stage('Continuous Download loans..') 
 	{
-    git 'https://github.com/PAG2k/CICDdemo.git'
+    sh 'echo "HI"'
 	}
-    stage('Continuous Build loans..') 
-	{
-    sh label: '', script: 'mvn package'
-	}
+
 }
