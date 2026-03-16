@@ -1,4 +1,3 @@
-node('master') 
 {
     stage('Continuous Download loans..') 
 	{
